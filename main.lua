@@ -17,17 +17,17 @@ local textObject
 
 -- Displays text on the screen at the positionx = 500 and y = 500 with 
 -- a default font style and font size of 50
-textObject = display.newText( "Hello John!", 100, 80, nil, 50 )
+textObject = display.newText( "Hello World!", 100, 80, nil, 50 )
 
 -- anchor the textObject from the top left corner
 textObject.anchorX = 0
 textObject.anchorY = 0
 
 -- sets color of the text 
-textObject:setTextColor(1, 1, 0 )
+textObject:setTextColor(0, 1, 0.6 )
 
 -- create another text variable 
 local textObjectSignature
 
 -- sign my name 
-textObjectSignature = display.newText ( "By John", display.contentCenterX, display.contentCenterY, nil, 40)
+textObjectSignature = display.newText ( "By John", display.contentCenterX, display.contentCenterY, nil, 30)
