@@ -31,3 +31,10 @@ local textObjectSignature
 
 -- sign my name 
 textObjectSignature = display.newText ( "By John", display.contentCenterX, display.contentCenterY, nil, 30)
+
+-- creating sound variable
+local Sound1 = audio.loadSound("Sounds/UltraInstinct2.mp3") 
+local backgroundMusic
+
+-- playing sound 
+backgroundMusic = audio.play(Sound1)
